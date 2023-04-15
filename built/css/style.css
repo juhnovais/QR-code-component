@@ -1,1 +1,49 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+body h1 {
+  font-size: 23px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+body .qrCode {
+  background-color: hsl(0, 0%, 100%);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+body .qrCode .qrCodeWrap {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 265px;
+  width: 100%;
+}
+body .qrCode .qrCodeWrap img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+body .qrCode .qrCodeWrap .qrContent {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
